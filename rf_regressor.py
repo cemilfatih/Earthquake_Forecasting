@@ -5,11 +5,9 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.ensemble import RandomForestRegressor
-from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
-from sklearn.preprocessing import PolynomialFeatures, StandardScaler
-from sklearn.tree import DecisionTreeRegressor
+from sklearn.preprocessing import  StandardScaler
 import joblib
 
 
